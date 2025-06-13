@@ -1,10 +1,10 @@
 # Bioinformatics_6-String_Reconstruction_ReadPairs
 
-# 📘 README: String Reconstruction from Read-Pairs
+# README: String Reconstruction from Read-Pairs
 
 ---
 
-### 🔍 Problem Overview
+### Problem Overview
 
 In **genome sequencing**, paired-end reads are short reads that are sequenced from both ends of a DNA fragment. This problem asks you to reconstruct the original DNA string using these **paired reads**, each composed of two k-length sequences with a gap of known distance $d$ between them.
 
@@ -12,15 +12,15 @@ The problem is solved by constructing a **paired de Bruijn graph** and finding a
 
 ---
 
-### 🧠 Why Is This Problem Important?
+### Why Is This Problem Important?
 
-* 💉 **Bioinformatics:** Reflects real-world genome assembly with paired-end reads
-* 📊 **Data Reconstruction:** Combines partial and offset-aligned data into a full sequence
-* 🔜 **Graph Algorithms:** Teaches graph traversal under additional constraints (gap alignment)
+* **Bioinformatics:** Reflects real-world genome assembly with paired-end reads
+* **Data Reconstruction:** Combines partial and offset-aligned data into a full sequence
+* **Graph Algorithms:** Teaches graph traversal under additional constraints (gap alignment)
 
 ---
 
-### 👈 Problem Statement
+###  Problem Statement
 
 Given:
 
@@ -33,7 +33,7 @@ Return:
 
 ---
 
-### 📅 Input Format
+### Input Format
 
 A text file (`input.txt`) like this:
 
@@ -52,7 +52,7 @@ GTCG|AGAT
 
 ---
 
-### 📈 Output Format
+### Output Format
 
 A text file (`output.txt`) with the reconstructed string:
 
@@ -62,13 +62,13 @@ GTGGTCGTGAGATGTTGA
 
 ---
 
-### ⚙️ How to Use
+### How to Use
 
-#### 🛠️ Requirements
+####  Requirements
 
 * Python 3.x
 
-#### ✨ Steps
+#### Steps
 
 1. Save the input in `input.txt`.
 2. Run the script:
@@ -80,7 +80,7 @@ GTGGTCGTGAGATGTTGA
 
 ---
 
-### 🧪 How It Works
+###  How It Works
 
 1. Parses the read-pairs and builds a **paired de Bruijn graph**.
 2. Each node is a pair of (k-1)-mers.
@@ -90,7 +90,7 @@ GTGGTCGTGAGATGTTGA
 
 ---
 
-### 📁 Project Structure
+### Project Structure
 
 ```
 read_pairs_reconstruction.py   # Python script
@@ -101,7 +101,7 @@ README.md                      # This file
 
 ---
 
-### 📆 Sample Run
+### Sample Run
 
 **Input:**
 
@@ -126,7 +126,7 @@ GTGGTCGTGAGATGTTGA
 
 ---
 
-### 📌 Notes
+### Notes
 
 * Assumes a valid Eulerian path exists.
 * Handles one correct reconstruction; other valid results may exist.
@@ -134,4 +134,4 @@ GTGGTCGTGAGATGTTGA
 
 ---
 
-Next up: **Contig Generation from Reads** →
+
