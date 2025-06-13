@@ -1,6 +1,7 @@
 # Bioinformatics_6-String_Reconstruction_ReadPairs
 
 # README: String Reconstruction from Read-Pairs
+## Author: Dr Anwesha Sarkar
 
 ---
 
